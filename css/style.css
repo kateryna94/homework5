@@ -39,9 +39,9 @@
 
 .item_link {
     text-decoration: none;
-    display: block;
+    display: flex;
+    align-items: center;
     line-height: 33px;
-    vertical-align: middle;
     color: #3e86c4;
     font: 14px 'Helvetica Neue';
     height: 33px;
@@ -62,7 +62,8 @@
 
 }
 .flag_link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   height: 30px;
   color: #ffffff;
   border-left: 1px solid #56a2dc;
@@ -70,11 +71,11 @@
 }
 
 .item_link .diff_but {
-    display: block;
+    display: flex;
+    align-items: center;
     height: 33px;
     width: 100%;
     color: #ffffff;
-    vertical-align: middle;
     background: linear-gradient(180deg, #4faedb, #2e7ac4);
 }
 
